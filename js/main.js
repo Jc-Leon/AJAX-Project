@@ -6,5 +6,6 @@ $submit.addEventListener('click', function (event) {
   event.preventDefault();
   $logo.append($form);
   document.querySelector('.search-input').value = '';
-  $form.classList.remove('remove');
+
+  $form.classList.remove('new');
 });

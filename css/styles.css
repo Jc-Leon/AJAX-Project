@@ -36,7 +36,7 @@
   font-size: 18px;
 }
 
-.remove {
+.new {
   margin: 24rem 0 0 52rem;
 }
 
@@ -52,17 +52,25 @@ img {
   justify-content: space-between;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
 .align-items {
   align-items: center;
 }
 
 @media only screen and (max-width: 1000px) {
-  .move-top-input {
+  .search-input {
     height: 2rem;
     width: 16rem;
   }
 
-  .move-top-button {
+  .search-button {
     height: 2rem;
   }
 
