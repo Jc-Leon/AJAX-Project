@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX Project</title>
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header>
-  </header>
-  <main>
-  </main>
-  <script src="js/data.js"></script>
-  <script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX Project</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="backgroundVideo">
+      <source src="./images/homepage.mp4" type="video/mp4" />
+    </video>
+    <header>
+      <div class="row align-items space-between background-color">
+        <img class="nav" src="./images/logo.png" alt="" />
+        <div class="searchbar"></div>
+        <img class="nav" src="./images/favorites.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <form class="new">
+        <input
+          class="search-input"
+          type="text"
+          placeholder="What are we drinking today?"
+        />
+        <button class="search-button" type="submit">Search</button>
+      </form>
+      <div class="grid-container"></div>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

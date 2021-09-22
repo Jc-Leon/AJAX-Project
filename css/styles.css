@@ -1,0 +1,72 @@
+#backgroundVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  height: 3rem;
+  width: 16rem;
+  padding-left: 0.7rem;
+  position: relative;
+  border-radius: 6px 0 0 6px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.search-button {
+  height: 3rem;
+  position: absolute;
+  border-radius: 0 6px 6px 0;
+  background-color: #c9a675;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.new {
+  margin: 24rem 0 0 52rem;
+}
+
+.nav {
+  width: 20%;
+}
+
+.background-color {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items {
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .search-input {
+    height: 2rem;
+    width: 16rem;
+  }
+
+  .search-button {
+    height: 2rem;
+  }
+
+  .new {
+    margin: 23rem 0 0 22rem;
+  }
+}
