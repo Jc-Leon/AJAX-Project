@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <video autoplay muted loop id="myVideo">
+    <video autoplay muted loop id="backgroundVideo">
       <source src="./images/homepage.mp4" type="video/mp4" />
     </video>
     <header>
       <div class="row align-items space-between background-color">
-        <img src="./images/logo.png" alt="" />
+        <img class="nav" src="./images/logo.png" alt="" />
         <div class="searchbar"></div>
-        <img src="./images/favorites.png" alt="" />
+        <img class="nav" src="./images/favorites.png" alt="" />
       </div>
     </header>
     <main>
@@ -29,7 +29,7 @@
         />
         <button class="search-button" type="submit">Search</button>
       </form>
-      <ul class="entry-container"></ul>
+      <div class="grid-container"></div>
     </main>
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>

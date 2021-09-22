@@ -1,4 +1,4 @@
-#myVideo {
+#backgroundVideo {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -40,7 +40,7 @@
   margin: 24rem 0 0 52rem;
 }
 
-img {
+.nav {
   width: 20%;
 }
 
@@ -50,14 +50,6 @@ img {
 
 .space-between {
   justify-content: space-between;
-}
-
-.flex-start {
-  justify-content: flex-start;
-}
-
-.flex-end {
-  justify-content: flex-end;
 }
 
 .align-items {
