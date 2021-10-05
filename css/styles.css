@@ -44,7 +44,7 @@ img {
 }
 
 .nav {
-  width: 30%;
+  width: 25%;
 }
 
 .space-between {
@@ -53,12 +53,12 @@ img {
 
 .search-input {
   height: 2rem;
-  width: 6rem;
+  width: 13em;
   position: relative;
   border-radius: 6px 0 0 6px;
   border: none;
   outline: none;
-  font-size: 7px;
+  font-size: 10px;
 }
 
 .search-button {
@@ -67,7 +67,7 @@ img {
   border-radius: 0 6px 6px 0;
   background-color: #c9a675;
   border: none;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .background-color {
@@ -137,6 +137,14 @@ li {
 
 .card:active {
   transform: translateY(0.2rem);
+}
+
+.searchbar {
+  width: 50%;
+}
+
+.search {
+  margin-right: 46px;
 }
 
 @media only screen and (min-width: 1162px) {
