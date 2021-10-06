@@ -12,14 +12,17 @@
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.card-container {
-  margin: 3rem auto;
+.card-container,
+.drink-container {
+  margin: 2rem auto;
 }
 
 .card {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .card-img {
@@ -27,7 +30,7 @@
 }
 
 .card-text {
-  padding: 3rem 1rem;
+  padding-top: 20%;
   border-radius: 0 6px 6px 0;
 }
 
@@ -41,38 +44,29 @@ img {
 }
 
 .nav {
-  width: 30%;
+  width: 25%;
 }
 
 .space-between {
   justify-content: space-between;
 }
 
-form {
-  margin-right: 2rem;
-}
-
 .search-input {
   height: 2rem;
-  width: 6rem;
+  width: 13em;
   position: relative;
   border-radius: 6px 0 0 6px;
   border: none;
   outline: none;
-  font-size: 7px;
+  font-size: 10px;
 }
 
 .search-button {
   height: 2rem;
-  position: absolute;
   border-radius: 0 6px 6px 0;
   background-color: #c9a675;
   border: none;
-  font-size: 7px;
-}
-
-.new {
-  margin: 18rem 0 0 7rem;
+  font-size: 11px;
 }
 
 .background-color {
@@ -81,7 +75,6 @@ form {
 }
 
 .height {
-  height: 11.1rem;
   width: 10rem;
 }
 
@@ -97,13 +90,63 @@ form {
   color: #c9a675;
 }
 
-header {
-  position: fixed;
-  top: 0;
+.column-full,
+.column-half {
   width: 100%;
 }
 
-@media only screen and (min-width: 960px) {
+.drink-container {
+  margin: 2rem auto;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.new {
+  height: 50rem;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.card-font,
+li {
+  font-size: 25px;
+}
+
+.card-padding,
+.drinkPadding {
+  padding: 10px 0;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.line-height,
+li {
+  line-height: 35px;
+}
+
+.drinkMargin {
+  margin: 1rem 0;
+}
+
+.card:active {
+  transform: translateY(0.2rem);
+}
+
+.searchbar {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1162px) {
+  .new {
+    height: 65rem;
+  }
+
   .search-input {
     height: 2rem;
     width: 16rem;
@@ -117,7 +160,6 @@ header {
 
   .search-button {
     height: 2rem;
-    position: absolute;
     border-radius: 0 6px 6px 0;
     background-color: #c9a675;
     border: none;
@@ -125,32 +167,12 @@ header {
     font-size: 18px;
   }
 
-  .new {
-    margin: 24rem 0 0 49rem;
-  }
-
   .nav {
-    width: 30%;
-  }
-
-  .background-color {
-    background-color: rgba(0, 0, 0, 0.75);
-  }
-
-  .space-between {
-    justify-content: space-between;
-  }
-
-  .align-items {
-    align-items: center;
-  }
-
-  .text-align {
-    text-align: center;
+    width: 20%;
   }
 
   .card-container {
-    margin: 12rem 0 0 4rem;
+    margin: 2rem 0 0 4rem;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -161,25 +183,11 @@ header {
     margin: 8rem 2rem 0 4rem;
   }
 
-  img {
-    width: 100%;
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
   .height {
     height: 15rem;
     margin-right: 4rem;
     color: white;
     width: 10rem;
-  }
-
-  form {
-    margin-right: 5rem;
   }
 
   .card-img {
@@ -194,5 +202,35 @@ header {
 
   .card {
     max-width: 80%;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+
+  .column-full,
+  .column-half {
+    padding: 0 0.75rem;
+  }
+
+  .column-half {
+    width: 50%;
+  }
+
+  .border-radius {
+    border-radius: 6px;
+  }
+
+  .card-font,
+  li {
+    font-size: 25px;
+  }
+
+  .card-padding {
+    padding: 10px 0;
+  }
+
+  .drink-container img {
+    width: 90%;
   }
 }
