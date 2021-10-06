@@ -63,7 +63,6 @@ img {
 
 .search-button {
   height: 2rem;
-  position: absolute;
   border-radius: 0 6px 6px 0;
   background-color: #c9a675;
   border: none;
@@ -143,10 +142,6 @@ li {
   width: 50%;
 }
 
-.search {
-  margin-right: 46px;
-}
-
 @media only screen and (min-width: 1162px) {
   .new {
     height: 65rem;
@@ -165,7 +160,6 @@ li {
 
   .search-button {
     height: 2rem;
-    position: absolute;
     border-radius: 0 6px 6px 0;
     background-color: #c9a675;
     border: none;
